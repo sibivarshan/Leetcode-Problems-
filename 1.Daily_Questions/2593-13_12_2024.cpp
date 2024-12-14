@@ -17,7 +17,7 @@ USING PRIORITY QUEUE:
 
 class Solution {
 public:
-    long long findScore(vector<int>& nums) {
+    long long findScore(vector <int>& nums) {
         //bbuild a min heap, first priority isthe element and second is the index
         auto cmp = [](const std::pair<int, int>& a, const std::pair<int, int>& b) {
             if (a.first == b.first)
